@@ -13,7 +13,7 @@ export const getCommentById = async (id: ReactNode) => {
 	return data;
 };
 
-export const createComment = async (comment: IComments) => {
+export const createNewComment = async (comment: IComments) => {
 	const data = await axios.post<IComments[]>(`${baseUrl}/comments`, comment);
 	return data;
 };

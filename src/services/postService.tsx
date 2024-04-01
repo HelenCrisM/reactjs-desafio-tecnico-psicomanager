@@ -13,7 +13,7 @@ export const getAllPosts = async () => {
 	return data;
 };
 
-export const createPost = async (post: IPost) => {
+export const createNewPost = async (post: IPost) => {
 	const data = await axios.post<IPost[]>(`${baseUrl}/posts`, post);
 	return data;
 };

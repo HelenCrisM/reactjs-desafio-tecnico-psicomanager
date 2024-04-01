@@ -12,7 +12,6 @@ function Home() {
 		(async () => {
 			await getAllPosts().then((response) => {
 				setPosts(response.data);
-				console.log('Data: ', response.data);
 			});
 		})();
 	}, []);

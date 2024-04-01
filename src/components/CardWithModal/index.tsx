@@ -96,7 +96,7 @@ export function CardWithModal(props: ICard) {
 						{comments.map((comment) => {
 							return (
 								<div key={comment.id}>
-									<Card id={comment.postId} title={comment.name} body={comment.body} />
+									<Card id={comment.id} title={comment.name} body={comment.body} />
 								</div>
 							);
 						})}

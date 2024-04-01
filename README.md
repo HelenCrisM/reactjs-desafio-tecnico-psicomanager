@@ -1,5 +1,28 @@
 # Desafio Técnico Psicomanager
 
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
+### Tecnologias Utilizadas
+ - Reactjs
+ - Typescript
+ - Yarn
+ - Axios
+ - Bootstrap
+ - Styled Components
+ - Font Awesome
+
+
+### Como executar o projeto
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/HelenCrisM/reactjs-desafio-tecnico-psicomanager.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd reactjs-desafio-tecnico-psicomanager
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev
+
+```
